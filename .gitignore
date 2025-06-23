@@ -1,1 +1,40 @@
- 
+# Fichiers volumineux dépassant les limites de GitHub
+# Fichiers .npy volumineux
+models/processed_data/Voix_mezzo-soprano/y_train.npy
+models/processed_data/Voix_mezzo-soprano/y_train_fold1.npy
+models/processed_data/Voix_mezzo-soprano/y_pitch_train.npy
+models/processed_data/Voix_mezzo-soprano_fold1/y_train.npy
+models/processed_data/Voix_mezzo-soprano_fold2/y_train.npy
+models/processed_data/Voix_mezzo-soprano_fold3/y_train.npy
+models/processed_data/Voix_mezzo-soprano_fold4/y_train.npy
+models/processed_data/Voix_mezzo-soprano_fold5/y_train.npy
+
+# Fichiers audio volumineux
+output/Gloire posthume basse mic.aiff
+
+# Autres fichiers générés
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Fichiers temporaires
+*~
+~*
